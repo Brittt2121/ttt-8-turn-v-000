@@ -29,3 +29,8 @@ def turn(board)
   if valid_move?(board, input) == false
   input = gets.strip
 end
+
+move(board, input)
+  display_board(board)
+end
+
