@@ -33,4 +33,3 @@ end
 move(board, input)
   display_board(board)
 end
-
